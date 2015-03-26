@@ -38,63 +38,9 @@
    <div class ="item item-avatar">
    <img src = "img/apple.jpg">
    <h2> Apple</h2>
-  </div>
 
- <div class ="item item-avatar">
-   <img src = "img/branflakes.jpg">
-   <h2>Bran Flakes</h2>
-   </div>
-
- <div class ="item item-avatar">
-   <img src = "img/carrots.jpg">
-   <h2>Carrots</h2>
-  </div>
-
- <div class ="item item-avatar">
-   <img src = "img/cheeseburger.jpg">
-   <h2>Cheeseburger</h2>
-  </div>
-
- <div class ="item item-avatar">
-   <img src = "img/chips.jpg">
-   <h2>Chips</h2>
-  </div>
-
- <div class ="item item-avatar">
-   <img src = "img/chocolate.jpg">
-   <h2>Chocolate </h2>
- </div>
-
- <div class ="item item-avatar">
-   <img src = "img/doritos.jpg">
-   <h2>Doritos</h2>
-  </div>
-
- <div class ="item item-avatar">
-   <img src = "img/irishbreakfast.jpg">
-   <h2>Full Irish Breakfast</h2>
- </div>
-
- <div class ="item item-avatar">
-   <img src = "img/lasagne.jpg">
-   <h2>Lasagne</h2>
- </div>
-
- <div class ="item item-avatar">
-   <img src = "img/pizza.jpg">
-   <h2>Pizza</h2>
-  </div>
-
- <div class ="item item-avatar">
-   <img src = "img/spinach.jpg">
-   <h2>Spinach</h2>
- </div>
-
- <div class ="item item-avatar">
-   <img src = "img/strawberries.jpg">
-   <h2> Strawberries</h2>
-  </div>
-
+<div class = "item item-avatar">
+<img src = "img/
 
   </div>
 
