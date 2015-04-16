@@ -25,15 +25,22 @@
   <body ng-app="calorific">
 
     <ion-pane>
-      <ion-header-bar class="bar-royal">
-       <b><i> <h1 class="title">Caloreasy</h1></b></i>
+      <ion-header-bar align-title = "center" class="bar-royal">
+       <h1 class="title"><b>Caloreasy</b></h1>		<!--Title of Mobile App-->
       </ion-header-bar>
       <ion-content>
+		<h3>Total Calories</h3>
+		<label class="item item-input">
+            <input type="number" ng-model="count12 = count + count1 + count2 + count3 + count4 + count5 + count6 + count7 + count8 + count9 + count10 + count11" />
+          </label>
+
+
+
   
-   <div class ="item item-avatar">
+   <div class ="item item-avatar">			
    <img src = "img/apple.jpg">
    <h2> Apple</h2>
-   <p>Apples contain 53 calories on average</p>
+   <p><em>Apples contain 53 calories on average</em></p>
     	<div class="list list-inset">
           <label class="item item-input">
             <input type="number" ng-model="count" />
@@ -77,7 +84,7 @@
  <div class ="item item-avatar">
    <img src = "img/cheeseburger.jpg">
    <h2>Cheeseburger</h2>
-   <p>Each cheeseburger contains,on average,300 calories </p>
+   <p>One cheeseburger contains 300 calories </p>
      	 <div class="list list-inset">
           <label class="item item-input">
             <input type="number" ng-model="count3" />
@@ -107,7 +114,7 @@
  <div class ="item item-avatar">
    <img src = "img/chocolate.jpg">
    <h2>Chocolate </h2>
-   <p>The average chocolate bar contains 200 calories</p>
+   <p>One chocolate bar contains 200 calories</p>
 	 <div class="list list-inset">
           <label class="item item-input">
             <input type="number" ng-model="count5" />
@@ -183,7 +190,7 @@
  <div class ="item item-avatar">
    <img src = "img/spinach.jpg">
    <h2>Spinach</h2>
-   <p>Average serving of spinach contains 23 calories</p>
+   <p>One serving contains 23 calories</p>
 	 <div class="list list-inset">
           <label class="item item-input">
             <input type="number" ng-model="count10" />
@@ -214,6 +221,9 @@
 
 
   </div>
+	<label class="item item-input">
+            <input type="number" ng-model="count" />
+          </label>
 
       </ion-content>
 <div class="bar bar-footer bar-balanced">
