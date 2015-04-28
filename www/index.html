@@ -24,7 +24,7 @@
 
 
   </head>
-  <body ng-app="caloreasy">
+  <body ng-app="calorific">
 
     <ion-pane>
       <ion-header-bar align-title = "center" class="bar-royal">
@@ -33,16 +33,16 @@
       <ion-content>
 	<center><img src = "img/Caloeasy.png"></center>		<!--Caloreasy Logo-->
 
-   <h3>Total Calories</h3>
+ <center> <h3>Total Calories</h3></center>
+
 	 <label class="item item-input">	<!--input label for calorie total-->   
 
    <input type="number" ng-model="count12 = count + count1 + count2 + count3 + count4 + count5 + count6 + count7 + count8 + count9 + count10 + count11" >
 
         </label>
-
-  		<button class="button button-block ion-loop button-balanced" align-title="left"  ng-click="count12 = 0">    <!--reset button-->
-       			 Reset
-       		 </button>
+	
+	<button class="button button-block button-assertive" ng-click="(count = 0)(count1 = 0)(count2 = 0)(count3 = 0)(count4 = 0)(count5 = 0) (count6 = 0)(count7 = 0)(count8 = 0)(count9 = 0)(count10 = 0)(count11 = 0)">Reset</button>
+  
 		
 
 <div class = "item item-divider">Breakfast</div>
@@ -126,7 +126,7 @@
  <div class ="item item-avatar">
    <img src = "img/chocolate.jpg">
    <h2>Chocolate </h2>
-   <p>One chocolate bar contains 200 calories</p> 			<!--items contained within div:label,image,button and count number-->
+   <p>One chocolate bar contains 200 calories</p> 		<!--items contained within div:label,image,button and count number-->
 	 <div class="list list-inset">
             <label class="item item-input">
                 <input type="number" ng-model="count5" />
@@ -142,7 +142,7 @@
  <div class ="item item-avatar">
    <img src = "img/carrots.jpg">
    <h2>Carrots</h2>
-   <p>One carrot cintains 7 calories</p>			<!--items contained within div:label,image,button and count number-->
+   <p>One carrot contains 7 calories</p>			<!--items contained within div:label,image,button and count number-->
 	 <div class="list list-inset">
           <label class="item item-input">
              <input type="number" ng-model="count6" />
